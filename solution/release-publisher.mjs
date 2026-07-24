@@ -12,6 +12,7 @@ import { writeFileSync, mkdtempSync, rmSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join, resolve } from 'node:path';
 
+
 const require = createRequire(import.meta.url);
 const duckdb = require('duckdb');
 
