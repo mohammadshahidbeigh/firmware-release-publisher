@@ -23,3 +23,7 @@ distribution-gateway/data/*.db
 *.log
 npm-debug.log*
 .DS_Store
+
+# The publisher directory ships empty so the empty-run proof is valid.
+# Solution lives under solution/ and is installed by solution/publish.sh.
+publisher/
